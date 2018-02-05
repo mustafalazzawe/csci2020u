@@ -21,7 +21,7 @@ jar {
 
 buildscript {
    repositories {
-      flatDir dirs: '~/csci2020u/proguard6.0/lib/'
+      flatDir dirs: 'proguard6.0/lib/'
    }
    dependencies {
       classpath ':proguard'
