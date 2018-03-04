@@ -1,3 +1,9 @@
+/*
+Lab06 -
+Mustafa Al-Azzawe
+100617392
+*/
+
 package sample;
 
 import javafx.application.Application;
