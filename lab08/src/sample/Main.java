@@ -15,6 +15,7 @@ import javafx.fxml.FXMLLoader;
 import javafx.geometry.Insets;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.input.*;
 import javafx.scene.control.*;
 import javafx.scene.control.cell.PropertyValueFactory;
 import javafx.scene.layout.BorderPane;
@@ -147,6 +148,7 @@ public class Main extends Application {
                 }
             }
         });
+        saveFile.setAccelerator(new KeyCodeCombination(KeyCode.S, KeyCombination.CONTROL_DOWN));
         MenuItem saveAsFile = new MenuItem("Save As");
         saveAsFile.setOnAction(new EventHandler<ActionEvent>(){
             public void handle(ActionEvent event){
